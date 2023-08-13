@@ -1,3 +1,5 @@
+import numpy as np
+from matplotlib import pyplot as plt
 img_array = np.load('/content/id-00000013_1_DronetTorch_9_l2.npy')
 
 img_array1=img_array.squeeze(0)
