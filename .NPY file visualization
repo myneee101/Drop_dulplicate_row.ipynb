@@ -1,0 +1,6 @@
+import numpy as np
+from matplotlib import pyplot as plt
+img_array1 = np.load('id-00000010_0_DenseNet_1_l2.npy')
+
+plt.imshow(img_array1)
+plt.show()
